@@ -26,6 +26,9 @@
     <Compile Include="HW_seminar1.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="HW_seminar2.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PythonSeminar.py" />
   </ItemGroup>
   <ItemGroup>
