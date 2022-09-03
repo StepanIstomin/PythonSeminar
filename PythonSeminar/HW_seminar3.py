@@ -16,8 +16,6 @@ print(f'{set_1} => {set_2}\n')
 set_3=[1.1, -1.2, 3.1, -5, 10.01, -0.17]
 set_3_frac = []
 for i in range(len(set_3)):
-    #print(set_3[i] - int(set_3[i]))
-    #print(str(set_3[i]).find("."))
     if (str(set_3[i]).find(".") != -1):
         set_3_frac.append(float("0." + str(set_3[i]).split('.')[1]))
 print(f'{set_3} MAX/MIN Fraction difference = {max(set_3_frac)-min(set_3_frac)}\n')
